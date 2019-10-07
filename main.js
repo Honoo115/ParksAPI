@@ -26,7 +26,7 @@ function renderParks(data) {
   for (let i = 0; i < data.length; i++) {
     $("#park_results")
       .append(`<li class = "results"> <a href="${data[i].url}">${data[i].url}</a> <div class = "parkName">${data[i].fullName}</div>
-      <div class = "parkDesc" >${data[i].description}</div>
+      <div class = "parkDesc" >${data[i].description}</div> <div class="parkDirec">${data[i].directionsInfo}</div>
  </li>`);
   }
 }
