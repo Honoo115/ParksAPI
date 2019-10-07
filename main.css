@@ -15,3 +15,6 @@
 body {
   background-color: gainsboro;
 }
+.error_handle {
+  color: red;
+}
