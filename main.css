@@ -1,0 +1,11 @@
+.results {
+  margin-top: 40px;
+  list-style: none;
+}
+.parkName {
+  font-size: 30px;
+}
+.parkDesc {
+  font-size: 20px;
+  margin-top: 5px;
+}
