@@ -10,8 +10,10 @@
   </head>
   <body>
     <h1>Check out some Parks</h1>
-
+    <section class="form_wrap">
     <form id="park_form">
+     <div>
+
       <label> Search for Parks by State Initials</label
       ><input
         type="text"
@@ -19,7 +21,7 @@
         placeholder="ex: WA,OR,ID,CA"
         required
       />
-      <div class ="error_handle"> </div>
+
       <label> How many results?</label>
       <input
       type="number"
@@ -30,7 +32,11 @@
     />
       <input type ="submit" value="Begin Search">
         </form>
+      </div> 
+      <div class ="js-error-message"></div>
+      <div class ="error_handle"> </div>
     <p id="error_msg"></p>
+    </section>
     <section>   
          <ul id ="park_results"></ul>
     </section>
